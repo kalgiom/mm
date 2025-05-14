@@ -1,0 +1,38 @@
+        :root {
+            --primary-color: #6c5ce7;
+            --hover-color: #5b4bc4;
+        }
+
+        body {
+            background-image: url(zeus.jpg);
+        }
+
+        .cart-item {
+            transition: all 0.3s ease;
+            border-radius: 15px;
+        }
+
+        .cart-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .quantity-btn {
+            width: 35px;
+            height: 35px;
+            border: none;
+            border-radius: 50%;
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .quantity-btn:hover {
+            background-color: var(--hover-color);
+        }
+
+        .quantity-input {
+            width: 50px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+        }
