@@ -1,99 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USER</title>
-    <link rel="stylesheet" href="panel.css">
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>پنل کاربری گیمینگ ساده</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style/panel.css">
 </head>
 
 <body>
-    <nav id="sidebar" class="d-flex flex-column">
-        <a href="#" class="nav-link active" aria-current="page">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"
-                viewBox="0 0 24 24">
-                <path d="M3 9l9-7 9 7"></path>
-                <path d="M9 22V12H15V22"></path>
-            </svg>
-            داشبورد
-        </a>
-        <a href="#" class="nav-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"
-                viewBox="0 0 24 24">
-                <path d="M20 21v-2a4 4 0 0 0-3-3.87"></path>
-                <path d="M4 21v-2a4 4 0 0 1 3-3.87"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-            </svg>
-            پروفایل
-        </a>
-        <a href="#" class="nav-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"
-                viewBox="0 0 24 24">
-                <circle cx="12" cy="12" r="3"></circle>
-                <path
-                    d="M19.4 15a7.93 7.93 0 0 0 .6-3 7.93 7.93 0 0 0-.6-3l2.12-1.65-2-3.46-2.49 1a7.96 7.96 0 0 0-2.8-1.63L13 2h-2l-.73 3.13A7.96 7.96 0 0 0 7.46 6.5l-2.5-1-2 3.46L5 9a7.93 7.93 0 0 0-.6 3 7.93 7.93 0 0 0 .6 3l-2.12 1.65 2 3.46 2.5-1a7.96 7.96 0 0 0 2.84 1.64L11 22h2l.73-3.13a7.96 7.96 0 0 0 2.84-1.64l2.5 1 2-3.46-2.12-1.65z">
-                </path>
-            </svg>
-            تنظیمات
-        </a>
-        <a href="#" class="nav-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out"
-                viewBox="0 0 24 24">
-                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
-                <polyline points="16 17 21 12 16 7"></polyline>
-                <line x1="21" y1="12" x2="9" y2="12"></line>
-            </svg>
-            خروج
-        </a>
-    </nav>
 
-    <header id="header">
-        user : mohsenpunisher
-    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-lg-2 sidebar">
+                <h5 class="text-center">🎮 پنل من</h5>
+                <a href="#">داشبورد</a>
+                <a href="#">بازی‌های من</a>
+                <a href="#">دستاوردها</a>
+                <a href="#">پروفایل</a>
+                <a href="#" class="text-danger">خروج</a>
+            </div>
 
-    <main id="content" class="container-fluid">
-        <h1 class="mb-4">داشبورد پنل کاربری</h1>
-        <div class="row g-4">
-            <div class="col-md-6 col-lg-4">
-                <div class="card p-3">
-                    <h4 class="card-title">پروفایل شما</h4>
-                    <p>سلام "محسن پانیشر"! اطلاعات حساب و فعالیت خود را در این بخش مشاهده کنید.</p>
-                    <button class="btn btn-primary">ویرایش پروفایل</button>
+            <div class="col-md-9 col-lg-10" style="background-image: url(image/img.jpg);">
+                <div class="header d-flex justify-content-between align-items-center">
+                    <h6 class="mb-0">سلام گیمر! 👋</h6>
+                    <button class="btn btn-green btn-sm">ویرایش پروفایل</button>
                 </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card p-3">
-                    <h4 class="card-title">آمار بازی‌ها</h4>
-                    <p>تعداد بازی‌های انجام شده، امتیازات کسب شده و برتری‌های شما را مشاهده کنید.</p>
-                    <ul>
-                        <li>بازی انجام شده: 120</li>
-                        <li>امتیاز کل: 4280</li>
-                        <li>رتبه: نقره‌ای</li>
-                    </ul>
-                    <button class="btn btn-primary">جزئیات بیشتر</button>
+
+                <div class="container mt-4">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <div class="dashboard-card">
+                                <h6>امتیاز کل</h6>
+                                <p>5300 XP</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="dashboard-card">
+                                <h6>بازی فعال</h6>
+                                <p>3 بازی در حال انجام</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="dashboard-card">
+                                <h6>تروفی‌ها</h6>
+                                <p>7 مدال</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="card p-3">
-                    <h4 class="card-title">اعلان‌ها</h4>
-                    <p>آخرین اعلان‌ها و پیام‌هایی که از تیم ما دریافت کرده‌اید.</p>
-                    <ul>
-                        <li>مسابقه هفتگی جدید برگزار شد!</li>
-                        <li>بروزرسانی نسخه 1.2.0 موفقیت‌آمیز بود.</li>
-                        <li>برای دریافت جایزه روزانه وارد شوید.</li>
-                    </ul>
-                    <button class="btn btn-primary">مشاهده همه</button>
-                </div>
+
             </div>
         </div>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+
 </body>
 
 </html>

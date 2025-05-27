@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(45deg, #2a0a0a, #000000);
+    min-height: 100vh;
+    color: #fff;
+}
+
+.item-card {
+    background: rgba(30, 30, 30, 0.9);
+    border: 1px solid #d32f2f;
+    transition: all 0.3s;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(211, 47, 47, 0.4);
+}
+
+.item-img {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #d32f2f;
+}
+
+.price-tag {
+    background: #d32f2f;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.search-box {
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #d32f2f;
+}

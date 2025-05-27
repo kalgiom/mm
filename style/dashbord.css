@@ -1,0 +1,52 @@
+        body {
+            background-color: #1a0e1f;
+            color: #e0ccff;
+            font-family: 'Vazirmatn', sans-serif;
+        }
+
+        .sidebar {
+            background-color: #2a1236;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .sidebar h4 {
+            color: #c77dff;
+            margin-bottom: 30px;
+        }
+
+        .sidebar a {
+            color: #e0ccff;
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+        }
+
+        .sidebar a:hover {
+            background-color: #3e1a4d;
+        }
+
+        .main-content {
+            padding: 30px;
+        }
+
+        .card {
+            background-color: #2f1640;
+            color: #fff;
+            border: none;
+            border-radius: 12px;
+        }
+
+        .card-title {
+            color: #c77dff;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .header h2 {
+            color: #c77dff;
+        }

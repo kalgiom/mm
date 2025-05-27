@@ -1,0 +1,16 @@
+body {
+    background-image: url(../image/mars.jpg);
+}
+
+.success-card {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.check-icon {
+    font-size: 60px;
+    color: #28a745;
+}

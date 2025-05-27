@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>تسویه حساب</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style/tasviye.css">
+</head>
+
+<body>
+
+    <div class="checkout-box">
+        <h2>تسویه حساب</h2>
+
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">نام کامل</label>
+                <input type="text" class="form-control" id="name" placeholder="مثال: علی رضایی">
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">ایمیل</label>
+                <input type="email" class="form-control" id="email" placeholder="مثال: ali@example.com">
+            </div>
+
+            <div class="mb-3">
+                <label for="address" class="form-label">آدرس</label>
+                <input type="text" class="form-control" id="address" placeholder="مثال: تهران، خیابان ولیعصر...">
+            </div>
+
+            <div class="mb-3">
+                <label for="payment" class="form-label">روش پرداخت</label>
+                <select id="payment" class="form-select">
+                    <option selected>انتخاب کنید</option>
+                    <option>پرداخت آنلاین</option>
+                    <option>کارت به کارت</option>
+                </select>
+            </div>
+
+            <div class="summary">
+                <p><strong>جمع کل:</strong> ۲۵۰٬۰۰۰ تومان</p>
+                <p><strong>هزینه ارسال:</strong> رایگان</p>
+                <hr class="border-light">
+                <p><strong>مبلغ نهایی:</strong> ۲۵۰٬۰۰۰ تومان</p>
+            </div>
+
+            <div class="d-grid mt-4">
+                <button type="submit" class="btn btn-purple btn-lg">پرداخت و ثبت سفارش</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

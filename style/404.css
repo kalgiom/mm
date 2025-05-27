@@ -1,0 +1,39 @@
+body {
+    background-color: #1a0e0e;
+    color: #ffcccc;
+    font-family: 'Vazirmatn', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.error-container {
+    max-width: 500px;
+}
+
+.error-code {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #ff3b3b;
+    text-shadow: 0 0 25px #ff3b3b88;
+}
+
+.error-message {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.btn-red {
+    background-color: #ff3b3b;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+
+.btn-red:hover {
+    background-color: #ff5e5e;
+    color: #000;
+}
