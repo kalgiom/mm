@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url();
+    background-image: url(../image/mars.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
